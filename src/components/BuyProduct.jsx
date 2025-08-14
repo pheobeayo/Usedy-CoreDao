@@ -65,7 +65,7 @@ const BuyProduct = ({ id, price }) => {
       }
 
       if (Number(chainId) !== Number(coreTestnet2.id)) {
-        toast.error("You're not connected to Bsc Testnet");
+        toast.error("You're not connected to coreTestnet2 network");
         return;
       }
 

@@ -35,7 +35,7 @@ const useAddProduct = () => {
       }
 
       if (Number(chainId) !== Number(coreTestnet2.id)) {
-        toast.error("You're not connected to BSC Testnet");
+        toast.error("You're not connected to coreTestnet2 network");
         return;
       }
 
