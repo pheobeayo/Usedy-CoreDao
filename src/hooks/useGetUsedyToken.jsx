@@ -1,4 +1,3 @@
-// useGetUsedyToken.js
 import { useCallback, useState, useEffect } from "react";
 import { tokenContract } from "../constants/tokenContract";
 import { useAppKitAccount } from "@reown/appkit/react";
